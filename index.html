@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacidade, suporte e solicitação de exclusão da conta do Focado.">
+  <title>Focado — privacidade e exclusão da conta</title>
+  <style>
+    :root{color-scheme:light;--ink:#0f1729;--blue:#3b4fe4;--paper:#fafaf8;--line:#dfe2ea}
+    *{box-sizing:border-box}html{scroll-padding-top:24px}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    .wrap{max-width:900px;margin:auto;padding:32px 24px 64px}header{display:flex;gap:24px;flex-wrap:wrap;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);padding-bottom:22px}
+    .brand{font-size:28px;font-weight:750;letter-spacing:-1px;text-decoration:none;color:var(--ink)}nav{display:flex;gap:20px;flex-wrap:wrap}a{color:var(--blue);text-underline-offset:3px}a:focus-visible{outline:3px solid var(--blue);outline-offset:5px;border-radius:3px}
+    .draft{background:#fff3d5;border:1px solid #d9bb6a;border-radius:12px;padding:16px 20px;margin:26px 0}.intro{padding:22px 0 26px}.eyebrow{font-size:13px;letter-spacing:1px;text-transform:uppercase;color:#525b72}h1{font-size:clamp(32px,6vw,48px);letter-spacing:-1.5px;line-height:1.15;margin:12px 0 18px}h2{font-size:27px;line-height:1.3;margin:0 0 20px;letter-spacing:-.5px}h3{font-size:19px;margin:28px 0 10px}p{margin:12px 0}section{background:white;border:1px solid var(--line);border-radius:18px;padding:30px;margin:24px 0}li{margin:10px 0}.button{display:inline-block;background:var(--blue);color:white;text-decoration:none;border-radius:10px;padding:12px 18px;font-weight:650;margin:14px 0;overflow-wrap:anywhere}.contact{overflow-wrap:anywhere}footer{font-size:14px;color:#525b72;padding-top:16px}.muted{color:#525b72}.skip{position:absolute;left:-9999px}.skip:focus{left:16px;top:16px;background:white;padding:12px;z-index:2}
+    @media(max-width:600px){.wrap{padding:22px 16px 40px}section{padding:23px 20px;border-radius:14px}nav{gap:14px;font-size:15px}}
+  </style>
+</head>
+<body>
+  <a class="skip" href="#conteudo">Ir para o conteúdo</a>
+  <div class="wrap">
+    <header><a class="brand" href="#conteudo">focado</a><nav aria-label="Navegação da página"><a href="#privacidade">Privacidade</a><a href="#exclusao">Excluir conta</a><a href="#contato">Suporte</a></nav></header>
+    <main id="conteudo">
+      <div class="intro"><div class="eyebrow">Sua conta, seus dados</div><h1>Privacidade com clareza.</h1><p>Saiba quais dados o Focado utiliza, como solicitar ajuda e como excluir sua conta.</p></div>
+      <section id="privacidade" aria-labelledby="titulo-privacidade">
+        <h2 id="titulo-privacidade">Política de privacidade do Focado</h2>
+        <p class="muted">Atualizada em 9 de outubro de 2026.</p>
+        <p>O Focado é um aplicativo de estudo vinculado a um projeto acadêmico de conclusão de curso. Esta versão é destinada a pessoas com 18 anos ou mais. O responsável é <strong>Caio Araujo da Luz</strong>. Para dúvidas ou solicitações sobre dados pessoais, entre em contato pelo e-mail <a class="contact" href="mailto:caiodaluz2004@gmail.com">caiodaluz2004@gmail.com</a>.</p>
+        <h3>Quais dados são utilizados</h3>
+        <ul>
+          <li><strong>Conta:</strong> nome, e-mail, identificador da conta e informações necessárias à autenticação. A senha é tratada pelo serviço de autenticação.</li>
+          <li><strong>Estudo:</strong> matérias, início e fim de sessões, meta, duração, pausas, saídas do aplicativo, tempo de foco, pontos e planos de estudo.</li>
+          <li><strong>Gestão institucional:</strong> nome, e-mail, instituição, turma e papel cadastrado pela gestão autorizada. Um cadastro institucional pode existir antes da criação da conta pessoal.</li>
+          <li><strong>Monitoramento Android opcional:</strong> quando o recurso e as permissões estão ativos, o app pode identificar pacotes de aplicativos detectados durante a sessão e registrar os eventos relacionados. Não consulta indiscriminadamente todo o conteúdo do aparelho.</li>
+          <li><strong>Funcionamento técnico:</strong> os serviços utilizados podem registrar informações técnicas de acesso e segurança. As preferências e os registros pendentes de uma sessão também podem permanecer localmente no aparelho até a sincronização.</li>
+        </ul>
+        <p>O aplicativo não oferece coleta de mensagens, contatos, fotos, áudio, localização ou conteúdo de arquivos de outros aplicativos. Não utiliza anúncios. As notificações implementadas são lembretes locais.</p>
+        <h3>Para que os dados são utilizados</h3>
+        <p>Os dados permitem autenticar a conta, organizar matérias e vínculos, acompanhar sessões, calcular pontos, apresentar histórico, gerar planos e operar a gestão institucional. Os registros de estudo também integram a pesquisa acadêmica descrita no consentimento apresentado antes da coleta de sessões. Não devem ser tratados como anônimos enquanto puderem ser relacionados ao usuário.</p>
+        <h3>Quem pode processar ou visualizar dados</h3>
+        <p>O Supabase fornece autenticação e armazenamento. A infraestrutura utilizada pode processar dados fora do Brasil. Os gestores autorizados têm acesso aos cadastros institucionais necessários às suas atribuições, conforme as permissões do aplicativo.</p>
+        <p>Ao solicitar um plano por inteligência artificial, nomes e identificadores de matérias e registros recentes de sessões, incluindo horários, minutos de foco e pontuação, são enviados ao OpenRouter e ao provedor do modelo que atende à solicitação. O nome e o e-mail do perfil não são incluídos diretamente nesse envio. Evite escrever informações pessoais sensíveis nos nomes de matérias. Os termos dos provedores determinam seu tratamento das entradas; não há promessa de anonimato ou retenção zero.</p>
+        <p>Consulte a <a href="https://openrouter.ai/privacy">política do OpenRouter</a>. A participação no ranking é voluntária e pode tornar nome e pontos visíveis a colegas, conforme as regras da turma. É possível sair do ranking pela área de Privacidade.</p>
+        <h3>Suas escolhas</h3>
+        <p>O acompanhamento de aplicativos Android depende de permissões opcionais, que podem ser alteradas nos ajustes do sistema. O consentimento da pesquisa é apresentado antes do registro de sessões. Na área de Privacidade, você pode exportar seus dados, sair do ranking e solicitar a exclusão da conta. Para dúvidas sobre consentimento ou acesso aos seus dados, utilize o contato abaixo.</p>
+        <h3>Conservação e exclusão</h3>
+        <p>Os dados da conta e de estudo são armazenados para as finalidades descritas enquanto a conta permanece ativa. A exclusão pelo aplicativo remove a conta, perfil, matérias pessoais, sessões, eventos, planos, cadastros pessoais institucionais, funções administrativas e vínculos associados. Registros de auditoria relacionados à pessoa excluída também são removidos.</p>
+        <p>A estrutura das instituições, turmas e matérias institucionais permanece, sem os vínculos pessoais removidos. Cadastros ainda não ligados à conta são incluídos na exclusão quando seu e-mail corresponde ao e-mail confirmado da conta. Uma conta sem e-mail confirmado não pode excluir cadastros de terceiros apenas por informar o mesmo endereço.</p>
+        <p>Solicitações de exclusão recebidas por e-mail são atendidas em até <strong>30 dias após a confirmação de titularidade</strong>. A exclusão feita pelo aplicativo ocorre ao concluir a operação, sem esse prazo de atendimento manual. O último administrador precisa transferir a gestão antes de excluir sua conta.</p>
+        <p>Para cadastros institucionais anteriores à criação de uma conta, dúvidas sobre consentimento ou dados já enviados a prestadores, escreva ao responsável. Não envie senha, documento de identidade ou dados sensíveis no primeiro contato. Cópias de segurança e registros técnicos podem permanecer conforme os períodos e regras dos provedores; pedidos relativos a dados enviados a prestadores serão encaminhados para o tratamento correspondente. Não prometemos remoção instantânea de todas as cópias técnicas externas.</p>
+        <h3>Segurança e atualizações</h3>
+        <p>As integrações de produção consultadas utilizam conexões HTTPS. Os acessos dependem de autenticação e permissões. Nenhuma transmissão ou sistema elimina todos os riscos. Mudanças nas práticas de tratamento devem ser refletidas nesta página e no consentimento do aplicativo quando necessário.</p>
+      </section>
+      <section id="exclusao" aria-labelledby="titulo-exclusao">
+        <h2 id="titulo-exclusao">Solicitar exclusão da conta e dos dados</h2>
+        <p>Você pode iniciar o pedido sem reinstalar o Focado e sem fazer login nesta página.</p>
+        <ol>
+          <li>Envie um e-mail para <a class="contact" href="mailto:caiodaluz2004@gmail.com">caiodaluz2004@gmail.com</a>, de preferência a partir do endereço cadastrado na conta.</li>
+          <li>Use o assunto <strong>Excluir minha conta do Focado</strong> e informe o e-mail da conta a ser excluída. Se desejar excluir também um cadastro institucional anterior ao uso do app, mencione a instituição.</li>
+          <li>O responsável verificará a titularidade e responderá com os próximos passos. O atendimento ocorre em até 30 dias após essa confirmação. A solicitação é atendida por uma pessoa; clicar no botão não exclui automaticamente a conta.</li>
+        </ol>
+        <a class="button" href="mailto:caiodaluz2004@gmail.com?subject=Excluir%20minha%20conta%20do%20Focado&amp;body=Solicito%20a%20exclus%C3%A3o%20da%20minha%20conta%20do%20Focado%20e%20dos%20dados%20associados.%0A%0AE-mail%20da%20conta%3A%20%0AInstitui%C3%A7%C3%A3o%20%28se%20houver%29%3A%20">Solicitar exclusão por e-mail</a>
+        <p>Também é possível usar <strong>Privacidade &gt; Apagar conta</strong> dentro do aplicativo. Essa ação remove a conta, os registros pessoais de estudo e os cadastros e vínculos institucionais associados, conforme descrito na política.</p>
+        <p>A exclusão encerra o acesso à conta e remove seu histórico pessoal de estudo. Exporte os dados antes, caso deseje uma cópia. Nunca envie sua senha por e-mail.</p>
+        <p class="muted">A instituição e sua estrutura de turmas e matérias permanecem. Se você é o último administrador do Focado, cadastre outro administrador antes de excluir sua conta.</p>
+      </section>
+      <section id="contato" aria-labelledby="titulo-contato"><h2 id="titulo-contato">Contato e suporte</h2><p><strong>Caio Araujo da Luz</strong><br>Responsável pelo Focado</p><p><a class="contact" href="mailto:caiodaluz2004@gmail.com">caiodaluz2004@gmail.com</a></p><p>Informe o problema e a versão do aplicativo. Não envie senhas ou chaves de acesso.</p></section>
+    </main>
+    <footer>Focado · 2026<br>Esta página não inclui ferramentas de analytics ou rastreamento. A hospedagem no GitHub Pages pode registrar acessos técnicos conforme a <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">política do GitHub</a>.</footer>
+  </div>
+</body>
+</html>
